@@ -1,0 +1,215 @@
+.sideMenu {
+  width: 296px;
+  min-height: 100vh; //滿版
+  background: $gray-100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  // 絕對定位讓寬度不要被改變
+  position: absolute;
+
+  .logo {
+    width: 151px;
+    height: 40px;
+    background: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/053bcf3afe88348b79971d2ea8de28f179cba5c5/week5/logo-ANSWER.svg');
+    background-size: contain;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+
+  }
+
+  .menuItems {
+    font-size: $font-size-base;
+    font-weight: bold;
+    margin-bottom: 22px;
+
+
+    .menuLink {
+      color: #000;
+      height: 32px;
+      padding-left: 32px;
+    }
+
+    .menuLink:visited {
+      color: #000;
+    }
+
+    .menuLink:focus {
+      color: $secondary;
+      height: 32px;
+      padding-left: 28px;
+      border-left: 4px solid $secondary;
+    }
+
+    .menuLink:hover {
+      color: #198754;
+      height: 32px;
+      padding-left: 28px;
+      border-left: 4px solid #198754;
+    }
+
+
+    .menuLink.active::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 4px;
+      height: 32px;
+      border-left: 4px solid #198754;
+    }
+  }
+
+  .userInformation {
+    padding-left: 32px;
+
+    h6 {
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+  }
+
+
+
+
+}
+
+//dataContent
+.dataContent {
+  width: 100%;
+  // 推出sider的寬度
+  margin-left: 296px;
+  padding-left: 17px;
+  padding-right: 18px;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  .add {
+    padding-top: 4px;
+
+    span {
+      color: $success
+    }
+
+    p {
+
+      font-weight: bold;
+    }
+  }
+}
+
+// table
+.dataTable {
+
+  .arrowDown {
+    font-size: 18px;
+    color: $secondary;
+    padding-top: 1px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+
+  td {
+    height: 55px;
+    vertical-align: middle;
+  }
+
+
+
+  .tableTextCenter {
+    height: 38px;
+    line-height: 38px;
+  }
+
+}
+
+
+
+
+//pagination
+.pagination {
+  border-radius: 2px 0px 0px 2px;
+  border-color: $success;
+
+  .page-item,
+  .page-link {
+    width: 32px;
+    height: 32px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    color: #000;
+
+    // 修改icon位置
+    .arrowLeft {
+      padding: 4px 17px 8px 4px;
+    }
+
+    .arrowRight {
+      padding: 4px 17px 8px 4px;
+    }
+
+    .paginationNumber {
+      padding-top: 4px;
+      padding-bottom: 8px;
+    }
+  }
+
+  // 移除多餘的右線
+  .page-item:not(:first-child) .page-link {
+    border-right: 0;
+
+  }
+
+  // 移除的右線
+  .page-item:last-child .page-link {
+    border-right: 1px solid $secondary;
+  }
+}
+
+.page-link:hover {
+  background-color: $success;
+  color: #FFF;
+}
+
+.page-link:active {
+  background-color: $success;
+  color: #FFF;
+}
+
+
+
+// .page-item:first-child .page-link {
+//   background: none;
+//   color: #000;
+// }
+
+// .page-item:first-child .page-link:hover {
+//   background: $success;
+//   color: #000;
+// }
+
+// .page-item:first-child .page-link:active {
+//   background: $success;
+//   color: #FFF;
+// }
+
+// .page-item:last-child .page-link {
+//   background: none;
+//   color: #000;
+// }
+// .page-item:last-child .page-link:hover {
+//   background: $success;
+//   color: #FFF;
+// }
+
+// .page-item:last-child .page-link:active {
+//   background: $success;
+//   color: #FFF;
+// }

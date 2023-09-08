@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper d-flex">
+      <div class="sideMenu me-md-8">
+        <nav>
+          <h1 class="logo my-md-8 ms-md-8"><a href="index.html">ANSWER</a></h1>
+          <ul class="menu list-unstyled">
+            <li class="menuItems">
+              <a href="#" class="menuLink d-flex align-items-center">
+                <span class="material-symbols-outlined me-md-4">
+                  insert_chart
+                </span>
+                Dashboard
+              </a>
+            </li>
+            <li class="menuItems">
+              <a href="#" class="menuLink d-flex align-items-center">
+                <span class="material-symbols-outlined me-md-4"> forum </span>
+                Question
+              </a>
+            </li>
+            <li class="menuItems">
+              <a href="#" class="menuLink d-flex align-items-center">
+                <span class="material-symbols-outlined me-md-4">
+                  assignment
+                </span>
+                Assignment
+              </a>
+            </li>
+            <li class="menuItems">
+              <a href="#" class="menuLink d-flex align-items-center">
+                <span class="material-symbols-outlined me-md-4">
+                  video_library
+                </span>
+                Course
+              </a>
+            </li>
+            <li class="menuItems">
+              <a
+                href="#"
+                class="menuLink d-flex align-items-center link-success active"
+              >
+                <span class="material-symbols-outlined me-md-4"> group </span>
+                Admin
+              </a>
+            </li>
+            <li class="menuItems">
+              <a href="#" class="menuLink d-flex align-items-center">
+                <span class="material-symbols-outlined me-md-4">
+                  settings
+                </span>
+                Settings
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="userInformation d-flex">
+          <div class="sideMenuUser me-md-4">
+            <a href="#"
+              ><img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true"
+                alt="andy"
+                class="userImg-side"
+            /></a>
+          </div>
+          <div class="informationContent">
+            <h6>Andy Chen</h6>
+            <p>andy0401@mail.com</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="dataContent my-md-8"> -->
+      <div class="dataContent">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-12 h-100vh d-flex flex-column justify-content-between"
+            >
+              <div>
+                <!-- header -->
+                <div
+                  class="header d-flex justify-content-between px-md-2 my-md-8"
+                >
+                  <div class="theme col-md-4 d-flex">
+                    <h2 class="me-md-12">Admin</h2>
+                    <div class="add">
+                      <button type="button" class="btnStyle d-flex">
+                        <span class="material-symbols-outlined me-md-2">
+                          add
+                        </span>
+                        <p>Add New Admin</p>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="function d-flex">
+                    <div class="search">
+                      <button type="button" class="btnStyle">
+                        <span class="material-symbols-outlined"> search </span>
+                      </button>
+                    </div>
+                    <div class="remind">
+                      <button type="button" class="btnStyle">
+                        <span class="material-symbols-outlined ms-md-26">
+                          notifications_active
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- table -->
+                <div class="dataTable">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="d-flex">
+                          ID
+                          <span class="material-symbols-outlined arrowDown">
+                            arrow_downward
+                          </span>
+                        </th>
+                        <th scope="col" class="col-md-3">Name</th>
+                        <th scope="col" class="col-md-4">Email</th>
+                        <th scope="col" class="col-md-2">Verified</th>
+                        <th scope="col" class="col-md-2"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#1</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Emir Wicks
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            emir.wicks@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button
+                            type="button"
+                            class="btnStyle"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                            data-bs-whatever="@mdo"
+                          >
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#2</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Zaina Goldsmith
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            zaina.goldsmith@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#3</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Mahima Lopez
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            mahima.lopez@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#4</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Pharrell Murray
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            pharrell.murray@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#5</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Annika Mcbride
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            annika.mcbride@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#6</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Fatimah Clark
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            fatimah.clark@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#7</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Klaudia Rhodes
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            klaudia.rhodes@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#8</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Tillie Lucero
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            tillie.lucero@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#9</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Sabrina Stephenson
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            sabrina.stephenson@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="thId tableTextCenter">
+                          <button type="button" class="btnStyle">#10</button>
+                        </th>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            Annie Smith
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">
+                            annie.smith@mail.com
+                          </button>
+                        </td>
+                        <td class="tableTextCenter">
+                          <button type="button" class="btnStyle">Yes</button>
+                        </td>
+                        <td class="ta-e">
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined">
+                              visibility
+                            </span>
+                          </button>
+                          <button type="button" class="btnStyle">
+                            <span class="material-symbols-outlined ms-md-5-i">
+                              edit
+                            </span>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- pagination -->
+              <nav aria-label="Page navigation example">
+                <ul
+                  class="pagination d-flex justify-content-end align-items-end mb-md-0 pb-md-8"
+                >
+                  <li class="page-item mb-md-1">
+                    <a
+                      class="page-link arrowLeft"
+                      href="#"
+                      aria-label="Previous"
+                    >
+                      <span class="material-symbols-outlined">
+                        chevron_left
+                      </span>
+                    </a>
+                  </li>
+                  <li class="page-item mb-md-1">
+                    <a class="page-link paginationNumber" href="#">1</a>
+                  </li>
+                  <li class="page-item mb-md-1">
+                    <a class="page-link paginationNumber" href="#">2</a>
+                  </li>
+                  <li class="page-item mb-md-1">
+                    <a class="page-link paginationNumber" href="#">3</a>
+                  </li>
+                  <li class="page-item mb-md-1">
+                    <a class="page-link arrowRight" href="#" aria-label="Next">
+                      <span class="material-symbols-outlined">
+                        chevron_right
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

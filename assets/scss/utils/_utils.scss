@@ -1,0 +1,77 @@
+// 4px=1單位
+.my-md-8 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.ms-md-8 {
+    margin-left: 32px;
+}
+
+.me-md-2 {
+    margin-right: 8px;
+}
+
+.me-md-4 {
+    margin-right: 16px;
+}
+
+.me-md-6 {
+    margin-right: 24px;
+}
+
+.me-md-8 {
+    margin-right: 32px;
+}
+
+.me-md-12 {
+    margin-right: 48px;
+}
+
+.mb-md-0 {
+    margin-bottom: 0;
+}
+
+.mb-md-1 {
+    margin-bottom: 4px;
+}
+
+.mb-md-12 {
+    margin-bottom: 48px;
+}
+
+.px-md-2 {
+    padding: 0 8px;
+}
+
+.pb-md-8 {
+    padding-bottom: 32px;
+}
+
+.pxy-md-8 {
+    padding: 32px;
+}
+
+// 因為bootstrap裡已經有ms-md-5的設定，使用!important，所以我沒去修改，另使用別名
+.ms-md-5-i {
+    margin-left: 20px;
+}
+
+// 無法整除4
+.ms-md-26 {
+    margin-left: 26px;
+}
+
+
+// other
+.ta-e {
+    text-align: end;
+}
+
+.thId {
+    font-weight: normal;
+}
+
+.h-100vh {
+    height: 100vh;
+}
